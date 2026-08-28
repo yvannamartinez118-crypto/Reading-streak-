@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <h1> Reading Streak</h1>
+    <p> Log your books here!</p>
+    <p id="Racha"> Racha: 0</p>
+    <button id="readButton"> Leí hoy </button>
+    <h2> What book did you read?</h2>
+    <p> Log the name and the pages.</p>
+    <input id= "bookName" type="text" placeholder= "Nombre del libro">
+    <input id= "pages" type= "number" placeholder= "Paginas leídas">
+      <select id= "persona">
+        <option value= "Yvanna">Yvanna</option>
+      <option value= "Guti">Guti</option></select>
+      <br><br>
+      <button id="registerButton">Registrar</button>
+    <div id= "bookList"></div> 
+    <br><br>
+    <table>
+      <tr>
+        <th>persona</th>
+        <th>libros leídos</th>
+        <th>paginas leídas</th>
+    <tr>
+    <table>
+    <td>Yvanna</td>
+    <td id= "librosYvanna"></td> 
+    <td id= "paginasYvanna"></td>
+    <tr>
+    <tr>
+    <td>Guti</td>
+    <td>0</td>
+    <td>0</td>
+    <tr>
+    <script src="./script.js"></script>
+  </body>
+</html>
